@@ -1,0 +1,8 @@
+Komar7_UI/
+│
+├── Komar7_UI.ino        ← entry point (setup & loop)
+├── state.h              ← enum & variabel state
+├── input.h
+├── input.cpp            ← tombol
+├── display_ui.h
+├── display_ui.cpp       ← OLED + menu + status
