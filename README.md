@@ -1,4 +1,5 @@
 # Bluejamzzz
+by Ruins
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Espressif_Logo.svg" alt="ESP32 Logo" width="220"/>
@@ -14,10 +15,10 @@ Repository ini digunakan sebagai pusat pengelolaan source code dan eksperimen pe
 Isi utama repository ini antara lain:
 
 - **Komar7_UI/**  
-  Folder yang berisi komponen User Interface (UI).
+  Folder yang berisi komponen User Interface (UI) berformat .ino dan partisi menu yang bisa di combine menjadi bin.
 
-- **Komar7_AllinoneVer.ino**  
-  File firmware utama berbasis Arduino untuk ESP32.
+- **Komar7_Allinover.ino**  
+  File firmware utama berbasis Arduino untuk ESP32 tanpa partisi menu.
 
 - **stuktur .txt**  
   Catatan atau dokumentasi struktur project.
@@ -60,6 +61,7 @@ cd Bluejamzzz
 - Pastikan **ESP32 Board Manager** sudah ter-install di Arduino IDE
 - Install library tambahan jika diperlukan sebelum compile
 - Gunakan kabel USB data (bukan kabel charge saja)
+- Project ini menggunakan Esp32 Devkit Doit 38 pin
 
 ---
 
@@ -83,4 +85,5 @@ Tambahkan file `LICENSE` jika project sudah siap untuk publik.
 
 ## 📬 Kontak & Diskusi
 
-Gunakan fitur **Issues** di GitHub untuk bug report, saran, atau diskusi pengembangan.
+Gunakan fitur **Issues** di GitHub untuk bug report, saran, atau diskusi pengembangan untuk project ini. 
+📩lutfiandod@gmail.com
